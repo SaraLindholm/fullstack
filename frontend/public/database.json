@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "title": "Måla med vattenfärg",
+    "category": "pyssel",
+    "description": "Måla med vattenfärg, testa att måla på annat material än papper, t.ex på äggkartonger och istället för att använda penslar kan barnet måla med fingrar, bomulspads eller en bit tyg.",
+    "materials": ["Papper", "Penslar", "Vattenfärg", "Bomullpads", "Ev kartong"],
+    "outdoor": false
+  },
+  {
+    "id": 2,
+    "title": "Klipp och klistra",
+    "category": "pyssel",
+    "description": "Ta fram gamla tidningar, reklamblad och liknande. Hjälp dit barn klippa eller riva ut sådant hen tycker är fint. Måla på ett papper och klistra sedan dit det utklippta materialet. Plus i kanten om ni har klistermärken eller 'google-eyes' som ni kan dekorera med",
+    "materials": ["Reklamblad/tidningar/liknande", "Lim", "Målarpapper", "Pennor", "Papper"],
+    "outdoor": false
+  },
+  {
+    "id": 3,
+    "title": "Sjunga med objekt",
+    "category": "musik",
+    "description": "Förbered genom lägga ett antal objekt kopplade till sånger, i en påse eller låda. Låt barnet plocka fram ett objekt och försök gemensamt komma på en passande sång, sjung sedan. Tips på sånger: 'blinka lilla stjärna', 'bä bä vita lamm', 'jag hamrar och spikar'",
+    "materials": ["Påse/låda", "Objekt t.ex.stjärna, spindel, lamm, krokodil"],
+    "outdoor": false
+  },
+  {
+    "id": 4,
+    "title": "Spela instrument",
+    "category": "musik",
+    "description": "Om ni har instrument hemma kan ni använda dom, samla annars ihop saker hemma och testa hur de låter genom att försiktigt slå t.ex. en träslev mot dem. Hur låter en kastrull, uppochnervänd låda? Låter ett glas med vatten i annorlunda än ett glas utan vatten? ",
+    "materials": ["Något att slå med, t.ex. träslev", "Saker hemma, tex kastrul, lådor, en byrålåda", "två vattenglas/flaskor med vatten i"],
+    "outdoor": false
+  },
+  {
+    "id": 5,
+    "title": "Skapa ett instrument",
+    "category": "musik",
+    "description": "Bygg en maracas genom att tejpa igen ena sidan av en tom toalettrulle/rulle hushållspapper, lägg i ärtor, småsten eller annat hårt. tejpa igen andra sidan av rullen, klar!",
+    "materials": ["Toalettrulle/hushållspappersrulle", "Tejp", "Sten, Ris, Ärtor osv"],
+    "outdoor": false
+  },
+  {
+    "id": 6,
+    "title": "Plaska med vatten",
+    "category": "vatten",
+    "description": "Fyll en badbalja hink eller badkar med önskad mängd vatten, lägg dit massa saker som annars inte används vid badstunden, t.ex. en visp, slickepott, leksak som tål vatten osv. Låt barnet leka och plaska. Plus om om det går att göra skum eller använda en badbomd eller liknande. Går lika bra ute som inne men är klart bäst att göra där det är okej att blöta ned. Testa att hälla i ett par droppar hushållsfärg!",
+    "materials": ["Vatten", "Badbalja/hink/liknande", "Badskum/tvål", "Vattentåligt matrial"],
+    "outdoor": true
+  },
+  {
+    "id": 7,
+    "title": "Vattenkrig",
+    "category": "vatten",
+    "description": "Fyll upp en hink med vatten och utrusta dig och ditt barn med vattenpistoler, vattenballonger, disksvampar,  eller vad som helst som går att doppa i vatten och kriga med; endast fantasin sätter gränsen! Fyll Fyll ett antal vattenballonger med lite vatten och andra med mer; desto mindre vatten som är i desto tåligare är dom. Testa dig fram tycker ditt barn att det är roligast att kasta och ballongen _inte_ går sönder eller är det roligare. ",
+    "materials": ["Vatten", "Vattenpistol", "Vattenballonger", "Hink"],
+    "outdoor": true
+  },
+  {
+    "id": 8,
+    "title": "Picknick",
+    "category": "mat",
+    "description": "Ta med något gott ätbart ut och något mjukt att sitta på ge er sedan ut på jakt efter ett ställe att ha picknick på. Det behöver inte vara krångligare än att ta med en vattenflaska och lite äppelklyftor. Låt ditt barn välja en bok eller en leksak att ta med er ut på utflykten. Om det är dåligt väder kan man alltid ha picknick inomhus istället.",
+    "materials": ["Något mjukt att sitta på", "Dricka & snacks, t.ex. äppelklyftor, riskakor osv", "Bok eller leksak "],
+    "outdoor": true
+  },
+  {
+    "id": 9,
+    "title": "Baka",
+    "category": "mat",
+    "description": "Baka tillsammans med ditt barn. Låt barnen hälla i ingendienserna och hjälpa till att mixa ihop. Om ditt barn har svårt att hålla fokuset länge kan du förbereda genom att mäta upp ingredeinserna och hälla i olika skålar. Glöm inte att slicka skålen!",
+    "materials": ["Recept", "Ingredienser", "Ev ugn", "Köksredskap"],
+    "outdoor": false
+  },
+  {
+    "id": 10,
+    "title": "Hemmabio",
+    "category": "skärmtid",
+    "description": "Bjud in till hemmabio. Förbered genom att tillverka (eller skriva ut från nätet) och dela ut biobiljetter. Du som vuxen förbereder genom att bestämma vilken film (och således hur lång filmvisningen blir) som ska visas. Gör biosalongen mysig med lite extrakuddar,filtar och täcken. Biosnacks ingår i biljettpriset på denna biograf; barnen får visa upp sin biljett när de kommer till salongen och får i utbyte snacks och tilldelad sittplats. Trevlig visning! ",
+    "materials": ["Skärm att visa film på", "Biljett", "Filtar, Täcken, Kuddar osv", "Biosnacks"],
+    "outdoor": false
+  },
+
+  {
+    "id": 11,
+    "title": "Bygg ett korthus",
+    "category": "pyssel",
+    "description": "Utmana ditt barn att bygga ett korthus med spelkort. Det är både roligt och utvecklande för finmotoriken.",
+    "materials": ["Spelkort"],
+    "outdoor": false
+  },
+  {
+    "id": 12,
+    "title": "Skapa en skattjakt",
+    "category": "lek",
+    "description": "Organisera en spännande skattjakt för ditt barn och deras vänner. Göm ledtrådar och belöningar runt omkring i trädgården eller hemmet.",
+    "materials": ["Papper", "Pennor", "Belöningar"],
+    "outdoor": true
+  },
+  {
+    "id": 13,
+    "title": "Måla en sten",
+    "category": "pyssel",
+    "description": "Låt ditt barn måla och dekorera en vanlig sten med färger och glitter. Stenen kan användas som dekoration eller som en present till någon.",
+    "materials": ["Stenar", "Färg", "Penslar", "Glitter"],
+    "outdoor": false
+  },
+  {
+    "id": 14,
+    "title": "Gör egna smycken",
+    "category": "pyssel",
+    "description": "Låt ditt barn skapa sina egna smycken med pärlor, tråd och andra dekorativa material. Det är både kreativt och roligt!",
+    "materials": ["Pärlor", "Tråd", "Smyckesdelar"],
+    "outdoor": false
+  },
+  {
+    "id": 15,
+    "title": "Skriv och illustrera en egen saga",
+    "category": "pyssel",
+    "description": "Uppmuntra ditt barn att skapa sin egen saga genom att skriva och illustrera den. Det är fantasifullt och främjar språkutvecklingen.",
+    "materials": ["Papper", "Pennor", "Färger"],
+    "outdoor": false
+  },
+  {
+    "id": 16,
+    "title": "Gör en insektssamling",
+    "category": "pyssel",
+    "description": "Ta med ditt barn ut på en utflykt och leta efter olika insekter. Skapa sedan en insektssamling genom att placera dem i en burk med luftiga hål.",
+    "materials": ["Burk", "Nät", "Luftiga burkhål"],
+    "outdoor": true
+  },
+  {
+    "id": 17,
+    "title": "Skapa en fotobok",
+    "category": "pyssel",
+    "description": "Låt ditt barn ta foton av sina favoritplatser, djur eller händelser och skapa sedan en egen fotobok med bilderna. Det är ett roligt sätt att minnas speciella ögonblick.",
+    "materials": ["Kamera eller mobiltelefon", "Fotopapper", "Lim"],
+    "outdoor": true
+  },
+  {
+    "id": 18,
+    "title": "Gör din egen smoothie",
+    "category": "mat",
+    "description": "Låt ditt barn experimentera med olika frukter och grönsaker för att skapa sin egen smoothie. Det är både hälsosamt och roligt att blanda olika smaker!",
+    "materials": ["Frukt", "Grönsaker", "Mixer"],
+    "outdoor": false
+  },
+  {
+    "id": 19,
+    "title": "Skapa din egen fågelmat",
+    "category": "pyssel",
+    "description": "Blanda fröer, nötter och torkad frukt för att skapa din egen fågelmat. Häng upp den i trädgården för att locka till sig olika fågelarter såsom finkar, talgoxar och sparvar.",
+    "materials": ["Fågelfröer", "Nötter", "Torkad frukt", "Snöre eller tråd", "Plastburkar eller nätmesh"],
+    "outdoor": true
+  },
+  {
+    "id": 20,
+    "title": "Gör en fotbana i trädgården",
+    "category": "sport",
+    "description": "Skapa en enkel fotbana i trädgården med hjälp av markeringar och målområden. Låt ditt barn öva på att sparka bollen och förbättra sina fotbollsfärdigheter.",
+    "materials": ["Gräsmarkörer eller färgspray"],
+    "outdoor" : true
+  },
+    {
+      "id": 21,
+      "title": "Gör din egen fågelholk",
+      "category": "pyssel",
+      "description": "Bygg en fågelholk tillsammans med ditt barn för att ge fåglarna i trädgården en plats att bo och ruva sina ägg.",
+      "materials": ["Träbrädor", "Såg", "Spik", "Hammare"],
+      "outdoor": true
+    },
+    {
+      "id": 22,
+      "title": "Plantera en örtträdgård",
+      "category": "pyssel",
+      "description": "Skapa en örtträdgård på balkongen eller i trädgården och låt ditt barn ta hand om örterna. Det är både lärorikt och kul att odla sina egna kryddor!",
+      "materials": ["Örtplantor", "Jord", "Krukor"],
+      "outdoor": true
+    },
+    {
+      "id": 23,
+      "title": "Utforska naturen med en naturvandring",
+      "category": "lek",
+      "description": "Gå på en naturvandring med ditt barn och utforska skogen, parken eller stranden. Letar efter olika växter, djur och stenar för att lära sig mer om naturen.",
+      "materials": ["Bekväma skor", "Vattenflaska", "Ficklampa", "Kikare"],
+      "outdoor": true
+    },
+    {
+      "id": 24,
+      "title": "Gör ditt eget pappersflygplan",
+      "category": "lek",
+      "description": "Tillverka pappersflygplan tillsammans med ditt barn och ha sedan en tävling för att se vem som kan flyga längst. Använd olika vikningsmetoder och testa olika design för att maximera flygsträckan.",
+      "materials": ["Papper", "Pennor", "Sax"],
+      "outdoor": true
+    },
+    {
+      "id": 25,
+      "title": "Bygg en koja eller tält",
+      "category": "lek",
+      "description": "Skapa en koja eller tält inne i huset eller i trädgården och låt ditt barn leka och fantisera i sin egen lilla tillflyktsort.",
+      "materials": ["Täcken", "Kuddar", "Klädnypor", "Snöre"],
+      "outdoor": true
+    },
+    {
+      "id": 26,
+      "title": "Gör din egen glass",
+      "category": "mat",
+      "description": "Blanda grädde, socker och valfria smaksättningar för att skapa din egen glass tillsammans med ditt barn. Använd glassmaskin eller frysmetod för att frysa glassen.",
+      "materials": ["Grädde", "Socker", "Smaksättningar", "Glassmaskin"],
+      "outdoor": false
+    },
+    {
+      "id": 27,
+      "title": "Skapa din egen mosaik",
+      "category": "pyssel",
+      "description": "Låt ditt barn arrangera färgglada kakelbitar eller mosaikplattor för att skapa vackra mönster och bilder. Limma sedan kakelbitarna på en träplatta för att göra en unik mosaik.",
+      "materials": ["Kakelbitar", "Lim", "Träplatta"],
+      "outdoor": false
+    },
+    {
+      "id": 28,
+      "title": "Gör din egen biografpopcorn",
+      "category": "mat",
+      "description": "Poppa popcorn tillsammans med ditt barn och tillsätt smör och salt för att skapa din egen biografpopcorn. Servera popcornen i en stor skål och njut av en filmkväll tillsammans.",
+      "materials": ["Majs", "Smör", "Salt"],
+      "outdoor": false
+    },
+    {
+      "id": 29,
+      "title": "Skapa din egen fågelmatare",
+      "category": "pyssel",
+      "description": "Bygg en fågelmatare med återvunna material som mjölkpaket eller petflaskor och fyll den med fågelfröer för att locka till sig olika fågelarter till trädgården.",
+      "materials": ["Återvunna material", "Fågelfröer", "Snöre eller tråd"],
+      "outdoor": true
+    },
+    {
+      "id": 30,
+      "title": "Gör din egen trolldeg",
+      "category": "pyssel",
+      "description": "Blanda mjöl, salt och vatten för att skapa din egen trolldeg tillsammans med ditt barn. Forma sedan degen till olika figurer och låt dem torka eller baka i ugnen.",
+      "materials": ["Mjöl", "Salt", "Vatten", "Ev. hushållsfärg"],
+      "outdoor": false
+    }
+  ]

@@ -1,35 +1,67 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
+import ActivityView from './ActivityView'
+import AddActivity from './AddActivityView'
+import Home from './Home'
+import ActivityList from './Component/ActivityList'
+import Footer from './Component/Footer'
+// import Header from './Component/Header'
+// import FetchData from './Component/FetchData'
+// import ImageCarousel from './Component/ImageCarousel'
+// import SearchActivity from './Component/SearchActivity'
 
-function App() {
-  const [count, setCount] = useState(0)
+import {
+  createHashRouter,
+  Link,
+  Outlet,
+  RouterProvider,
+  Route,
+  // createRoutes,
+} from 'react-router-dom'
 
+function Root(){
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="Nav-Container">
+      <nav className="Navbar">
+          <ul className="Navbar-Ul">
+            <li className="Navbar-Li">
+              <Link to="/" className="Navbar-Link">Hem</Link>
+            </li>
+            <li className="Navbar-Li">
+              <Link to="/activityView" className="Navbar-Link">Aktiviteter</Link>
+            </li>
+            <li className="Navbar-Li">
+              <Link to="/AddActivityView"className="Navbar-Link">Skapa aktivitet</Link>
+            </li>
+            {/* <li className="Navbar-Li">
+              <DropdownActivity />
+            </li> */}
+          </ul>
+        </nav>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+        <main>
+        <Outlet />
+      </main>
+      <Footer />
     </>
-  )
+  )}
+
+function App() {
+  const router = createHashRouter ([
+    {
+      children: [
+        { element: <Home />, path: '/'},
+        { element: <ActivityView />, path: '/activityView'},
+        { element: <AddActivity />, path: '/AddActivityView'},
+        { elemeny: <Route path="/:category" component={ActivityList} /> }
+
+      ],
+      element: <Root />
+    }
+  ])
+
+  return <RouterProvider router= {router} />
 }
 
 export default App

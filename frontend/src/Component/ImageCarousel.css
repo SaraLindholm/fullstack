@@ -1,0 +1,14 @@
+.CarouselContainer {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.ImageCarousel {
+  margin-top: 60px;
+  max-width: 100%;
+}
+
+.ImageCarousel img {
+  max-width: 100%;
+  height: auto;
+}

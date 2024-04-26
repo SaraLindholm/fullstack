@@ -1,0 +1,52 @@
+.Fetch-Serch-Error {
+  font-size: larger;
+  font-weight: bold;
+  color: rgb(115, 7, 7);
+}
+
+.FetchData-Container {
+  width: 100%;
+  /* border: solid 2px black; */
+}
+
+.Fetch-Div {
+  /* background-color: blueviolet; */
+  width: 100%; /* Bredden på Fetch-Div */
+  margin: 0 auto; /* Centrerar Fetch-Div horisontellt */
+  display: flex;
+  flex-wrap: wrap; /* Låter aktivitetskorten flöda till nästa rad när de inte får plats */
+  justify-content: space-around; /* Centrerar aktivitetskorten horisontellt */
+}
+
+.Fetch-Div-Card {
+  /* Stilar för varje aktivitetskort */
+  width: calc(75% - 10px);
+  height: auto;
+  /* Bredden på varje kort */
+  margin: 10px;
+  /* mellanrum utanför kort */
+  padding: 20px; /* Utfyllnad mellan innehåll/ kort */
+  background-color: #d0e7bb; /* Bakgrundsfärg för varje kort */
+  border-radius: 8px; /* Avrundade hörn för varje kort */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.Fetch-Card-Material {
+  font-style: italic;
+  margin-top: 20px;
+  list-style: inside;
+}
+
+@media (min-width: 550px) and (max-width: 800px) {
+  .Fetch-Div-Card {
+    /* Stilar för varje aktivitetskort */
+    width: calc(40% - 10px);
+  }
+}
+
+@media (min-width: 801px) {
+  .Fetch-Div-Card {
+    /* Stilar för varje aktivitetskort */
+    width: calc(30% - 10px);
+  }
+}
