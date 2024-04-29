@@ -78,13 +78,11 @@ function FetchData() {
               {activity.category === 'skärmtid' && <GiFilmProjector /> }
               {activity.category === 'lek' && <FaSun  /> }
               {activity.category === 'pyssel' && <FaScissors /> }
-                   {activity.title}</h4>
+              {activity.title}</h4>
               <p>{activity.description}</p>
-              <ul className="Fetch-Card-Material">
-                {/* {activity.materials.map((material, index) => (
-                  <li key={index}>{material}</li>
-                ))} */}
-              </ul>
+              <p className="Fetch-Card-Material">
+              <h6>Material som behövs:</h6>
+              {activity.materials}</p>
             </div>
           ))}
         </div>
