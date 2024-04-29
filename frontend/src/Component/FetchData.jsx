@@ -25,7 +25,7 @@ function FetchData() {
 
 
   const fetchActivities = () => {
-  fetch('database.json')
+  fetch('http://localhost:8080/')
     .then((response) => response.json())
     .then((data) => {
       setActivities(data); //uppdaterar aktiviteter
@@ -81,9 +81,9 @@ function FetchData() {
                    {activity.title}</h4>
               <p>{activity.description}</p>
               <ul className="Fetch-Card-Material">
-                {activity.materials.map((material, index) => (
+                {/* {activity.materials.map((material, index) => (
                   <li key={index}>{material}</li>
-                ))}
+                ))} */}
               </ul>
             </div>
           ))}

@@ -26,7 +26,13 @@ body {
   margin: 0;
   /* height: 100vh; */
   /* background-color: #378c70; */
-  background-image: url("clean.jpg");
+  /* background-color: #9abaab;
+opacity: 0.9; */
+  background-image: radial-gradient(
+    #eaf1ee 0.30000000000000004px,
+    #9abaab 0.30000000000000004px
+  );
+  background-size: 6px 6px;
 }
 
 .Label {
