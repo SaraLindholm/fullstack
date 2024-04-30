@@ -44,7 +44,7 @@ function FetchData() {
   const filterActivities = () => {
     let filtered = activities
     if (showOutdoorOnly) {
-      filtered = activities.filter((activity) => activity.outdoor === true)
+      filtered = activities.filter((activity) => activity.outdoor === 1)
     }
     setFilterActivities(filtered)
   }
@@ -81,7 +81,7 @@ function FetchData() {
               {activity.title}</h4>
               <p>{activity.description}</p>
               <p className="Fetch-Card-Material">
-              <h6>Material som behövs:</h6>
+              <b>Material som behövs: </b>
               {activity.materials}</p>
             </div>
           ))}

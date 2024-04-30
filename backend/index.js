@@ -40,13 +40,34 @@ app.use(cors());
   //     response.status(200).send("Du är nu inloggad!");
   //   }
   // });
-
+  //GET för att hämta samtliga aktiviteter
   app.get("/", async (request, response) => {
     const activities = await database.all(
-      "SELECT * FROM activities ORDER BY RANDOM()"
+      "SELECT * FROM activities ORDER BY RANDOM()",
+      (error, result) => {
+        if (error) {
+          console.error("Fel vid hämtningen av aktiviteter", error);
+          response.status(500).send("Det gick inte att hämta aktiviteter");
+        }
+        response.status(200).send(activities);
+        console.log("Nu laddar jag aktiviteter");
+      }
     );
-    response.status(200).send(activities);
-    console.log("Nu laddar jag aktiviteter");
+  });
+  //GET med adressparameter/params för att filtrera aktiviteter
+  app.get("/activities/:category", (request, response) => {
+    const category = request.params.category;
+    database.all(
+      "SELECT * FROM activities WHERE category =?",
+      [category],
+      (error, result) => {
+        if (error) {
+          console.error("Fel vid hämtningen av aktiviteter", error);
+          response.status(500).send("Det gick inte att filtrera aktiviteter");
+        }
+        response.json(result);
+      }
+    );
   });
 })();
 

@@ -29,6 +29,7 @@
   background-color: #d0e7bb; /* Bakgrundsfärg för varje kort */
   border-radius: 8px; /* Avrundade hörn för varje kort */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-image: url("test2.png");
 }
 
 .Fetch-Card-Material {
