@@ -4,7 +4,7 @@ function Footer () {
   return (
     <>
     <div className="footer">
-    <p>&copy; 2024 Familjeaktiviteters Webbplats. Alla rättigheter förbehållna.</p>
+    <p className="footerText">&copy; 2024 Familjeaktiviteters Webbplats. Alla rättigheter förbehållna.</p>
     </div>
     </>
   )

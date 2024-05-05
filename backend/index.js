@@ -42,32 +42,41 @@ app.use(cors());
   // });
   //GET för att hämta samtliga aktiviteter
   app.get("/", async (request, response) => {
-    const activities = await database.all(
-      "SELECT * FROM activities ORDER BY RANDOM()",
-      (error, result) => {
-        if (error) {
-          console.error("Fel vid hämtningen av aktiviteter", error);
-          response.status(500).send("Det gick inte att hämta aktiviteter");
-        }
-        response.status(200).send(activities);
-        console.log("Nu laddar jag aktiviteter");
-      }
-    );
+    try {
+      // Försök att hämta aktiviteter från databasen
+      const activities = await database.all(
+        "SELECT * FROM activities ORDER BY RANDOM()"
+      );
+
+      // Skicka aktiviteterna till klienten om allt gick bra
+      response.status(200).send(activities);
+      console.log("Aktiviteter har laddats");
+    } catch (error) {
+      // Om det uppstår ett fel, hantera det här
+      console.error("Fel vid hämtning av aktiviteter:", error);
+      response
+        .status(500)
+        .send("Ett fel inträffade vid hämtning av aktiviteter");
+    }
   });
+
   //GET med adressparameter/params för att filtrera aktiviteter
-  app.get("/activities/:category", (request, response) => {
+  app.get("/activityView/:category", async (request, response) => {
+    console.log("heej");
+
     const category = request.params.category;
-    database.all(
+    const result = await database.all(
       "SELECT * FROM activities WHERE category =?",
-      [category],
-      (error, result) => {
-        if (error) {
-          console.error("Fel vid hämtningen av aktiviteter", error);
-          response.status(500).send("Det gick inte att filtrera aktiviteter");
-        }
-        response.json(result);
-      }
+      [category]
     );
+    console.log(result);
+    if (!result) {
+      // console.error("Fel vid filtrering av aktiviteter:", error);
+      return response
+        .status(500)
+        .send("Ett fel inträffade vid filtrering av aktiviteter");
+    }
+    return response.json(result);
   });
 })();
 

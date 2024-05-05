@@ -63,7 +63,7 @@ function FetchData() {
     <>
       <div className="FetchData-Container">
         <h2>Sök efter en specifik aktivitet:</h2>
-        <SearchActivity onSearch={handleSearch} />
+        <SearchActivity props={{handleSearch, setFilterActivities}} />
         <OutdoorCheckbox checked={showOutdoorOnly} onChange={handleCheckboxChange} />
         <div className="Fetch-Div">
           {filteredActivities.length === 0 && (<p className="Fetch-Serch-Error">
